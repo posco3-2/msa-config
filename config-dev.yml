@@ -1,8 +1,9 @@
-posco:
-  name: 3기
-  count: 1
-spring:  
- mvc:
+
+spring:
+  devtools:
+    livereload:
+      enabled: true
+  mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
   jpa:
@@ -18,4 +19,3 @@ spring:
 jwt:
   secret_key: SECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEYSECRET_KEY
   expTime: 86400000
-
